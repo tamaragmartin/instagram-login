@@ -60,7 +60,7 @@ const Login = () => {
               </h6>
               <p className="login--right-form-facebook">
                 <img src={fb} alt="Facebook" />
-                Iniciar sesión con Facebook
+                {'\u00A0'}Iniciar sesión con Facebook
               </p>
               <a className="login--right-form-forgot" href="/password">
                 ¿Ha olvidado la contraseña?
