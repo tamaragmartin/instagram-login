@@ -28,7 +28,7 @@ const Login = () => {
     <>
       <div className="login">
         <section className="login--left">
-          <img src={mainpic} alt="Phones" />
+          <img src={mainpic} alt="Instagram on mobile phones" />
         </section>
         <section className="login--right">
           <article className="login--right-form">
@@ -48,8 +48,16 @@ const Login = () => {
                 onChange={handlePasswordChange}
                 value={password}
               />
-              <button type="submit" disabled={!email || password.length < 6 } onClick={handleSubmit}>Iniciar sesión</button>
-              <h6><span>o</span></h6>
+              <button
+                type="submit"
+                disabled={!email || password.length < 6}
+                onClick={handleSubmit}
+              >
+                Iniciar sesión
+              </button>
+              <h6>
+                <span>o</span>
+              </h6>
               <p className="login--right-form-facebook">
                 <img src={fb} alt="Facebook" />
                 Iniciar sesión con Facebook
@@ -66,13 +74,15 @@ const Login = () => {
             <p>Descarga la aplicación.</p>
             <a
               href="https://apps.apple.com/app/instagram/id389801252?vt=lo"
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
             >
               <img src={apple} alt="App Store" className="apple" />
             </a>
             <a
               href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb%26utm_campaign%3DloginPage%26ig_mid%3DF8BBB1A3-08A6-4021-BF21-294959EA9ADF%26utm_content%3Dlo%26utm_medium%3Dbadge"
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
             >
               <img src={google} alt="Google Play" className="google" />
             </a>
@@ -83,55 +93,82 @@ const Login = () => {
       <div className="bottom">
         <ul className="login--bottom-links">
           <li>
-            <a href="https://about.facebook.com/meta" target="_blank" rel="noreferrer">
+            <a
+              href="https://about.facebook.com/meta"
+              target="_blank"
+              rel="noreferrer"
+            >
               Meta
             </a>
           </li>
           <li>
-            <a href="https://about.instagram.com/" target="_blank" rel="noreferrer">
+            <a
+              href="https://about.instagram.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               Información
             </a>
           </li>
           <li>
-            <a href="https://about.instagram.com/blog/" target="_blank" rel="noreferrer">
+            <a
+              href="https://about.instagram.com/blog/"
+              target="_blank"
+              rel="noreferrer"
+            >
               Blog
             </a>
           </li>
           <li>
             <a
               href="https://about.instagram.com/about-us/careers"
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
             >
               Empleo
             </a>
           </li>
           <li>
-            <a href="https://help.instagram.com/" target="_blank" rel="noreferrer">
+            <a
+              href="https://help.instagram.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               Ayuda
             </a>
           </li>
           <li>
             <a
               href="https://developers.facebook.com/docs/instagram"
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
             >
               API
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/legal/privacy/" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.instagram.com/legal/privacy/"
+              target="_blank"
+              rel="noreferrer"
+            >
               Privacidad
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/legal/terms/" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.instagram.com/legal/terms/"
+              target="_blank"
+              rel="noreferrer"
+            >
               Condiciones
             </a>
           </li>
           <li>
             <a
               href="https://www.instagram.com/directory/profiles/"
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
             >
               Cuentas destacadas
             </a>
@@ -139,7 +176,8 @@ const Login = () => {
           <li>
             <a
               href="https://www.instagram.com/directory/hashtags/"
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
             >
               Hashtags
             </a>
@@ -147,39 +185,54 @@ const Login = () => {
           <li>
             <a
               href="https://www.instagram.com/explore/locations/"
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
             >
               Ubicaciones
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/web/lite/" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.instagram.com/web/lite/"
+              target="_blank"
+              rel="noreferrer"
+            >
               Instagram Lite
             </a>
           </li>
           <br />
           <li>
-            <a href="https://www.instagram.com/topics/beauty/" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.instagram.com/topics/beauty/"
+              target="_blank"
+              rel="noreferrer"
+            >
               Belleza
             </a>
           </li>
           <li>
             <a
               href="https://www.instagram.com/topics/dance-and-performance/"
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
             >
               Danza
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/topics/fitness/" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.instagram.com/topics/fitness/"
+              target="_blank"
+              rel="noreferrer"
+            >
               Actividad física
             </a>
           </li>
           <li>
             <a
               href="https://www.instagram.com/topics/food-and-drink/"
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
             >
               Comida y bebida
             </a>
@@ -187,20 +240,26 @@ const Login = () => {
           <li>
             <a
               href="https://www.instagram.com/topics/home-and-garden/"
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
             >
               Hogar y jardinería
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/topics/music/" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.instagram.com/topics/music/"
+              target="_blank"
+              rel="noreferrer"
+            >
               Música
             </a>
           </li>
           <li>
             <a
               href="https://www.instagram.com/topics/visual-arts/"
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
             >
               Artes visuales
             </a>
@@ -238,5 +297,3 @@ const Login = () => {
 };
 
 export default Login;
-
-
