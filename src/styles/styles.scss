@@ -1,5 +1,8 @@
 @import "./utils/variables";
+@import "./utils/mixins";
 
 @import "./components/main";
 @import "./components/login";
 @import "./components/home";
+
+@import "./views/app";
